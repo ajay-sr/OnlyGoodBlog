@@ -23,9 +23,15 @@ body{
 
 #nav{
 	list-style-type: none;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	background-color: black;
+	color: white;
+	width: 100%;
 }
 
-#otherNav {
+#otherNav{
 	float: right;
 	padding-right: 2em;
 }
@@ -40,10 +46,10 @@ li{
 	font-size: 20px;
 	display: inline;
 	padding-top: 1em;
+	padding-bottom: 1em;
 	padding-left: 3em;
 }
 
 #homeButt {
 	float: left;
-	position: fixed;
 }
