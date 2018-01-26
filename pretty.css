@@ -1,6 +1,49 @@
 body{
-	background-color: #333333;
+	background-color: #FFFFFF;
 	background-repeat: no-repeat;
 	background-size:100%;
 	background-attachment:fixed;
+	padding:0;
+	margin:0;
+}
+
+#banner{
+	width:100%;
+	text-align: center;
+	background-color: #333333;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-size: 75px;
+	opacity: 0.5;
+}
+
+#title {
+	color: white;
+}
+
+#nav{
+	list-style-type: none;
+}
+
+#otherNav {
+	float: right;
+	padding-right: 2em;
+}
+
+ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+
+li{
+	font-size: 20px;
+	display: inline;
+	padding-top: 1em;
+	padding-left: 3em;
+}
+
+#homeButt {
+	float: left;
+	position: fixed;
 }
