@@ -1,0 +1,58 @@
+body {
+	background-color: #000000;
+	margin:0;
+	padding: 0;
+}
+
+#nav{
+	list-style-type: none;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+
+#otherNav{
+	float: right;
+}
+
+ul{
+	list-style-type: none;
+	margin:0;
+	padding: 0;
+}
+
+li{
+	font-size: 1.25em;
+	display: inline;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+#homeButt {
+	float: left;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	padding: 1em;
+}
+
+#nav a:hover {
+	background: #999999;
+}
+
+p {
+	color: white;
+	font-size: 4em;
+	text-align: center;
+}
+
+img {
+	margin-top: 5em;
+}
