@@ -1,5 +1,5 @@
 body{
-	background-color: #FFFFFF;
+	background-image: url("Working.jpg");
 	background-repeat: no-repeat;
 	background-size:100%;
 	background-attachment:fixed;
@@ -10,7 +10,7 @@ body{
 #banner{
 	width:100%;
 	text-align: center;
-	background-image: url("Working.jpg");
+	background-attachment: fixed;
 	background-size: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -60,19 +60,28 @@ a {
 	padding: 1em;
 }
 
-a:hover {
+#nav a:hover {
 	background: #222222;
 }
 
 #story {
 	text-align: center;
-	width:50%;
-	margin: auto;
+	width:100%;
 	padding-top: 2em;
 	padding-bottom: 2em;
-	padding-right: 1em;
-	padding-left:1em;
 	font-size: 2em;
-	background-color: #333333;
+	background-color: #FFFFFF;
+	border-top-left-radius: 2em;
+	border-top-right-radius: 2em;
+	color: black;
+}
 
+#btt {
+	color:black;
+	font-size: 0.75em;
+}
+
+#storytxt {
+	width: 60%;
+	margin: auto;
 }
